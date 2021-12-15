@@ -1,0 +1,24 @@
+[15:30:27] I/launcher - Running 1 instances of WebDriver
+[15:30:27] I/hosted - Using the selenium server at http://localhost:4444/wd/hub
+[15:30:30] E/launcher - Error code: 135
+[15:30:30] E/launcher - Error message: ECONNREFUSED connect ECONNREFUSED 127.0.0.1:4444
+[15:30:30] E/launcher - Error: ECONNREFUSED connect ECONNREFUSED 127.0.0.1:4444
+    at ClientRequest.<anonymous> (C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\http\index.js:238:15)
+    at ClientRequest.emit (events.js:315:20)
+    at Socket.socketErrorListener (_http_client.js:426:9)
+    at Socket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+From: Task: WebDriver.createSession()
+    at Function.createSession (C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:769:24)
+    at Function.createSession (C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\chrome.js:761:15)
+    at createDriver (C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\index.js:170:33)
+    at Builder.build (C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\index.js:626:16)
+    at Hosted.getNewDriver (C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\built\driverProviders\driverProvider.js:53:33)
+    at Runner.createBrowser (C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\built\runner.js:195:43)
+    at C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\built\runner.js:339:29
+    at _fulfilled (C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)
+    at C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\KS00561356\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:796:13)
+[15:30:30] E/launcher - Process exited with error code 135
